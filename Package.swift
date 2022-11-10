@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Carbon",
+    name: "Carbon-SPM",
     platforms: [
         .iOS(.v10)
     ],
