@@ -8,7 +8,7 @@ let package = Package(
         .iOS(.v10)
     ],
     products: [
-        .library(name: "Carbon-SPM", targets: ["Carbon-SPM"])
+        .library(name: "Carbon-SPM", targets: ["Carbon"])
     ],
     dependencies: [
         .package(url: "https://github.com/ra1028/DifferenceKit.git", .upToNextMinor(from: "1.1.3"))
